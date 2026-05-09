@@ -349,7 +349,7 @@ p{color:var(--text-2);line-height:1.7}
     .cta-vis{height:200px}
 }
 @media(max-width:768px){
-    :root{--gap:100px}
+    :root{--gap:72px}
     .container,.nav-inner,.hero-inner{padding:0 24px}
     .nav-links{display:none}
     .hero{min-height:auto;padding:110px 0 50px}
@@ -362,10 +362,15 @@ p{color:var(--text-2);line-height:1.7}
     .footer-top{flex-direction:column;align-items:flex-start}
 }
 @media(max-width:480px){
+    :root{--gap:56px}
     h1{font-size:26px}h2{font-size:22px}
     .hero-sub{font-size:15px}
+    .broken-header{margin-bottom:28px}
+    .broken-stage{margin-bottom:28px}
     .module{padding:22px}
     .diff-col{padding:22px}
     .bp-frame{aspect-ratio:1.6/1}
     .bp-node span{font-size:7px}
+    .blueprint{margin:28px 0 28px}
+    .cta-text p{margin-bottom:20px}
 }
